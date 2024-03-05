@@ -1,0 +1,31 @@
+[
+  {
+    "code": 1001,
+    "status": 500,
+    "title": "Internal Server Error"
+  },
+  {
+    "code": 1002,
+    "status": 404,
+    "title": "Resource not found",
+    "skipLogging": true
+  },
+  {
+    "code": 1003,
+    "status": 400,
+    "title": "Validation Error",
+    "skipLogging": false
+  },
+  {
+    "code": 1004,
+    "status": 409,
+    "title": "Duplicate data",
+    "skipLogging": false
+  },
+  {
+    "code": 1005,
+    "status": 400,
+    "title": "Validation error",
+    "skipLogging": true
+  }
+]
